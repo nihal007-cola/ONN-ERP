@@ -1,0 +1,72 @@
+body {
+  margin:0;
+  font-family: Arial;
+  background:#f5f7ff;
+}
+
+/* HEADER */
+.header {
+  display:flex;
+  justify-content:space-between;
+  padding:15px 30px;
+  background:#071a3a;
+  color:white;
+}
+
+.logo {
+  height:30px;
+}
+
+.logo-section {
+  display:flex;
+  align-items:center;
+  gap:10px;
+  font-weight:bold;
+}
+
+.btn {
+  background:#1fbf6b;
+  padding:8px 15px;
+  color:white;
+  text-decoration:none;
+  border-radius:20px;
+}
+
+/* HERO */
+.hero {
+  text-align:center;
+  padding:60px 20px;
+}
+
+.hero h1 {
+  font-size:32px;
+}
+
+/* SERVICES */
+.services {
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+  gap:20px;
+  padding:20px;
+}
+
+.card {
+  background:white;
+  padding:20px;
+  text-align:center;
+  border-radius:12px;
+}
+
+/* SECTIONS */
+.about, .contact {
+  padding:40px;
+  text-align:center;
+}
+
+/* FOOTER */
+footer {
+  background:#071a3a;
+  color:white;
+  text-align:center;
+  padding:20px;
+}
